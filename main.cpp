@@ -14,7 +14,7 @@ int main() {
 
     sf::Event event;
 
-    cell **board = new cell*[cells_in_row];
+    cell **board = new cell*[CELLS_IN_ROW];
     create_board(board);
 
     while(window.isOpen()) {
@@ -27,16 +27,16 @@ int main() {
 
                     switch(event.key.code) {
                         case sf::Keyboard::Right:
-                            cursor_column == cells_in_column-1 ? cursor_column = 0 : cursor_column++;
+                            cursor_column == CELLS_IN_COLLUMN - 1 ? cursor_column = 0 : cursor_column++;
                             break;
                         case sf::Keyboard::Left:
-                            cursor_column == 0 ? cursor_column = cells_in_column-1 : cursor_column--;
+                            cursor_column == 0 ? cursor_column = CELLS_IN_COLLUMN - 1 : cursor_column--;
                             break;
                         case sf::Keyboard::Up:
-                            cursor_row == 0 ? cursor_row = cells_in_row-1 : cursor_row--;
+                            cursor_row == 0 ? cursor_row = CELLS_IN_ROW - 1 : cursor_row--;
                             break;
                         case sf::Keyboard::Down:
-                            cursor_row == cells_in_row-1 ? cursor_row = 0 : cursor_row++;
+                            cursor_row == CELLS_IN_ROW - 1 ? cursor_row = 0 : cursor_row++;
                             break;
                         case sf::Keyboard::Space:
                             board[cursor_row][cursor_column].change_content();

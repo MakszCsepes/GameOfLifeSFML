@@ -14,11 +14,11 @@
 //}
 //
 //void cell::set_content() {
-//    content == life ? content = not_life : content = life;
+//    content == LIFE ? content = NOT_LIFE : content = LIFE;
 //}
 //
 //void cell::draw_cell(bool is_selected) {
-//    sf::RectangleShape cage(sf::Vector2f(cell_size, cell_size));
+//    sf::RectangleShape cage(sf::Vector2f(CELL_SIZE, CELL_SIZE));
 //    position pos = this->get_coords();
 //    cage.setFillColor(sf::Color::Yellow);
 //
