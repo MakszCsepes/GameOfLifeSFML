@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.5.1)
 project(GoL_SFML)
 
 set(CMAKE_CXX_STANDARD 14)
