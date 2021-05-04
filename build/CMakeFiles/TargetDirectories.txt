@@ -1,3 +1,0 @@
-/home/max-ubuntu/GitFolder/GameOfLifeSFML/build/CMakeFiles/edit_cache.dir
-/home/max-ubuntu/GitFolder/GameOfLifeSFML/build/CMakeFiles/rebuild_cache.dir
-/home/max-ubuntu/GitFolder/GameOfLifeSFML/build/CMakeFiles/GoL_SFML.dir
