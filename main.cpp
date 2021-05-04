@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    if(!buffer.loadFromFile("../Audio/beep-3.wav")) {
+    if(!buffer.loadFromFile("../Resources/Audio/beep-3.wav")) {
         return -1;
     }
     action_sound.setBuffer(buffer);
